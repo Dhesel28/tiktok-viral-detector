@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+
+# API keys
+.env
+*.env
+
+# Trained model binaries (regenerate with: python train.py)
+models/*.pkl
+
+# Large lyrics catalog (regenerate with: python pipeline.py --build)
+data/catalog_with_lyrics.csv
+
+# Chat logs
+CHAT_HISTORY.md
