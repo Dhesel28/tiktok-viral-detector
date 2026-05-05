@@ -10,8 +10,8 @@ __pycache__/
 # Trained model binaries (regenerate with: python train.py)
 models/*.pkl
 
-# Large lyrics catalog (regenerate with: python pipeline.py --build)
-data/catalog_with_lyrics.csv
+# Data folder (regenerate with: python pipeline.py --build)
+data/
 
 # Chat logs
 CHAT_HISTORY.md
